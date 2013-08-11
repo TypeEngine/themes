@@ -1,0 +1,44 @@
+// Colors
+
+$white :			#ffffff;
+$cream :			#ebe3d6;
+$grayDark:			#333333;	
+$gray:				#666666;
+$black:				#111111; 
+$blue:				#268fb5; 
+
+$linkColor:			$blue;
+
+// Typography
+@mixin headingFontFamily {
+	font-family: OpenSansBold;	
+}
+@mixin headingFontFamilyAlt {
+	font-family: OpenSansExtraBold;	
+}
+
+@mixin headingFont {
+	font-family: OpenSansBold;
+	font-weight: normal;
+	font-style: normal;
+	margin: $marginMedium 0 ($marginSmall*2);
+	padding: 0;	
+}
+@mixin bodyFontFamily {
+	font-family: Gentium;
+}
+@mixin bodyFont($bodyFontWeight) {
+  font-family: Gentium;
+  font-weight: $bodyFontWeight;
+  font-style: normal;
+}
+
+$baseFontSize :   20px;
+$baseLineHeight : 1.4;
+
+// Layout
+
+$marginXlarge :   128px;
+$marginLarge :    64px;
+$marginMedium :   48px;
+$marginSmall :    12px;

@@ -1,0 +1,231 @@
+{
+  "coverHeight": 125,
+  "coverWidth": 85,
+  "issueHeaderDisplay": {
+    "publicationDates": true,
+    "teasers": true,
+    "covers": true
+  },
+  "issueSelectorDisplay": {
+    "publicationDates": true,
+    "teasers": true,
+    "covers": true
+  },
+  "format": {
+    "fonts": {
+      "magazineTitle": {
+        "name": "Avenir-Heavy",
+        "size": 24
+      },
+      "issueTitle": {
+        "name": "Avenir-Heavy",
+        "size": 24
+      },
+      "issueTeaser": {
+        "name": "Avenir-Light",
+        "size": 16
+      },
+      "issuePublicationDate": {
+        "name": "Avenir-Light",
+        "size": 16
+      },
+      "articleTitle": {
+        "name": "Avenir-Heavy",
+        "size": 24
+      },
+      "articleAuthor": {
+        "name": "Avenir-Light",
+        "size": 16
+      },
+      "articleTeaser": {
+        "name": "Avenir-Italic",
+        "size": 16
+      },
+      "button": {
+        "name": "Avenir-Medium",
+        "size": 16
+      },
+      "buttonSubscribe": {
+        "name": "Avenir-Heavy",
+        "size": 16
+      },
+      "buttonDownload": {
+        "name": "Avenir-Medium",
+        "size": 16
+      },
+      "buttonBuy": {
+        "name": "Avenir-Medium",
+        "size": 16
+      },
+      "buttonBack": {
+        "name": "Avenir-Medium",
+        "size": 16
+      }
+    },
+    "colors": {
+      "issueSelectorBackground": [
+ 		   223, 83, 37, 1.0
+      ],
+      "issueTitle": [
+        250, 250, 250, 1.0
+      ],
+      "issueTitleSelected": [
+		    250, 250, 250, 1.0
+      ],
+      "issueTeaser": [
+        220, 220, 220, 1.0
+      ],
+      "issueTeaserSelected": [
+        220, 220, 220, 1.0
+      ],
+      "issuePublicationDate": [
+        220, 220, 220, 1.0
+      ],
+      "issuePublicationDateSelected": [
+        220, 220, 220, 1.0
+      ],
+      "issueBackground": [
+		    223, 83, 37, 1.0
+      ],
+      "issueSelectedBackground": [
+		    223, 83, 37, 0.5
+      ],
+      "issueCellBorderTop": [
+        223, 83, 37, 0.5
+      ],
+      "issueCellBorderBottom": [
+        223, 83, 37, 0.5
+      ],
+      "articleSelectorHeaderBackground": [
+		    30, 30, 30, 1.0
+      ],
+      "articleSelectorHeaderTitle": [
+        250, 250, 250, 1.0
+      ],
+      "articleSelectorHeaderPublicationDate": [
+        220, 220, 220, 1.0
+      ],
+      "articleSelectorHeaderTeaser": [
+        220, 220, 220, 1.0
+      ],
+      "articleTitle": [
+        250, 250, 250, 1.0
+      ],
+      "articleAuthor": [
+        220, 220, 220, 1.0
+      ],
+      "articleTeaser": [
+        220, 220, 220, 1.0
+      ],
+      "articleCellBorderTop": [
+        223, 83, 37, 0.5
+      ],
+      "articleCellBorderBottom": [
+        223, 83, 37, 0.5
+      ],
+      "buttonBackground": [
+       30, 30, 30, 0.9
+      ],
+      "buttonBorder": [
+        30, 30, 30, 0.9
+      ],
+      "buttonText": [
+        250, 250, 250, 1.0
+      ],
+      "buttonSubscribeBackground": [
+        50, 50, 50, 1.0
+      ],
+      "buttonSubscribeSelected": [
+        50, 50, 50, 0.5
+      ],
+      "buttonSubscribeBorder": [
+        50, 50, 50, 1.0
+      ],
+      "buttonSubscribeText": [
+        250, 250, 250, 1.0
+      ],
+      "buttonDownloadBackground": [
+        50, 50, 50, 1.0
+      ],
+      "buttonDownloadSelected": [
+        50, 50, 50, 0.5
+      ],
+      "buttonDownloadBorder": [
+        50, 50, 50, 1.0
+      ],
+      "buttonDownloadText": [
+        250, 250, 250, 1.0
+      ],
+      "buttonBuyBackground": [
+        50, 50, 50, 1.0
+      ],
+      "buttonBuyBorder": [
+        50, 50, 50, 1.0
+      ],
+      "buttonBuyText": [
+        250, 250, 250, 1.0
+      ],
+      "buttonBackBackground": [
+		    30, 30, 1.0
+      ],
+      "buttonBackBorder": [
+		    30, 30, 30, 1.0
+      ],
+      "buttonBackText": [
+        250, 250, 250, 1.0
+      ]
+    },
+    "dimensions": {
+      "buttonBorderSize": 1,
+      "buttonBorderRadius": 22.0,
+      "buttonSubscribeBorderSize": 1.0,
+      "buttonSubscribeBorderRadius": 5.0,
+      "buttonDownloadBorderSize": 1.0,
+      "buttonDownloadBorderRadius": 5.0,
+      "buttonBuyBorderSize": 1.0,
+      "buttonBuyBorderRadius": 5.0,
+      "buttonBackBorderSize": 2.0,
+      "buttonBackBorderRadius": 22.0,
+      "issueCellBorderTop": 5.0,
+      "issueCellBorderBottom": 5.0,
+      "articleCellBorderTop": 1.0,
+      "articleCellBorderBottom": 1.0,
+      "issueCellTitleLineHeight": 24,
+      "issueCellTeaserLineHeight": 18,
+      "issueCellPublishedDateLineHeight": 18,
+      "articleCellTitleLineHeight": 22,
+      "articleCellTeaserLineHeight": 18,
+      "articleCellAuthorDateLineHeight": 18,
+      "issueHeaderPadding": [
+        5, 5, 0, 0
+      ],
+      "issueCellPadding": [
+        5,
+        5,
+        0,
+        0
+      ],
+      "articleHeaderPadding": [
+        5,
+        5,
+        0,
+        0
+      ],
+      "articleCellPadding": [
+        5,
+        5,
+        0,
+        0
+      ]
+    },
+    "positions": {
+      "issueCellTitleAlignment": 0,
+      "issueCellTeaserAlignment": 1,
+      "issueCellPublishedDateAlignment": 1,
+      "articleCellTitleAlignment": 1,
+      "articleCellTeaserAlignment": 1,
+      "articleCellAuthorAlignment": 1,
+      "buttonBackTextAlignment": 0
+    }
+  }
+}

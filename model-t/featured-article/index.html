@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+      
+
+<script src='assets/js/jquery-1.8.3.min.js'></script>
+<script src='assets/js/app.js'></script>
+  <script src="assets/js/jquery.slides.min.js"></script>
+  <script src="assets/js/jquery.smooth-scroll.min.js"></script>
+
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 1024,
+        height: 574
+      });
+    });
+  </script>
+
+  <link rel='stylesheet' href='assets/css/style.css'>
+
+  <style>
+    ?{{Css}}
+      ${{Css}}
+    ?{{/Css}}
+  </style>
+
+
+</head>
+
+<body id="top">
+
+  ?{{FeaturedImgSrc}}
+    <section class="featured-img">
+      <img src="${{FeaturedImgSrc}}" ?{{FeaturedImgAlt}} alt="${{FeaturedImgAlt}}" ?{{/FeaturedImgAlt}} >
+    </section>
+  ?{{/FeaturedImgSrc}}  
+
+  <header class="header container">
+    ?{{ArticleType}}
+      <p class="article-type">${{ArticleType}}</p>
+    ?{{/ArticleType}}
+
+    ?{{Title}}
+      <h1 class="article-title">${{Title}}</h1>
+    ?{{/Title}}
+
+    ?{{Subtitle}}
+      <h3 class="article-subtitle">${{Subtitle}}</h3>
+    ?{{/Subtitle}}
+
+    ?{{AuthorName}}
+      <a href="#author-block" class="author-name scroll"><span>${{AuthorName}}</span></a>
+    ?{{/AuthorName}}
+  </header>
+
+  <article class="article-body container">
+    ${{Body}}
+  </article>
+
+  ?{{Endnote}}
+    <section class="endnote container">
+      <p><em>${{Endnote}}</em></p>  
+    </section>
+  ?{{/Endnote}}
+
+  ?{{Ad}}
+  <section class="ad-block container">
+    <a href="${{AdUrl}}">
+      <img src="${{AdImgSrc}}" alt="${{AdAlt}}"></a>
+  </section>
+  ?{{/Ad}}
+
+
+  <footer class="footer container clearfix" id="author-block">
+    
+    ?{{AuthorImg}}
+    <div class="asset-container author-img">
+      <img src="${{AuthorImg}}">
+    </div>
+    ?{{/AuthorImg}}
+
+    ?{{AuthorName}}
+      <h4 class="author-name">${{AuthorName}}</h4>
+    ?{{/AuthorName}}
+
+    ?{{AuthorBio}}
+      <p class="author-bio">${{AuthorBio}}</p>
+    ?{{/AuthorBio}}
+
+    <ul class="author-social">
+
+      ?{{AuthorWebsite}}
+        <li><a class="ss-icon ss-link" title="Author's Website" href="${{AuthorWebsite}}"></a></li>
+      ?{{/AuthorWebsite}}
+
+      ?{{AuthorTwitter}}
+        <li><a class="ss-icon ss-twitter" title="Author's Twitter Account" href="${{AuthorTwitter}}"></a></li>
+      ?{{/AuthorTwitter}}
+
+      ?{{AuthorAppnet}}
+        <li><a class="ss-icon ss-appdotnet" title="Author's App.net Account" href="${{AuthorAppnet}}"></a></li>
+      ?{{/AuthorAppnet}}
+
+      ?{{AuthorFacebook}}
+        <li><a class="ss-icon ss-facebook" title="Author's Facebook Account" href="${{AuthorFacebook}}"></a></li>
+      ?{{/AuthorFacebook}}
+    </ul>
+    <div class="clearfix"></div>
+
+    <!-- <a class="scroll back-to-top full-bleed" href="#top">Back to top</a> -->
+
+  </footer>
+
+  </body>
+
+  </html>
