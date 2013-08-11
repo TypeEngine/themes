@@ -1,0 +1,23 @@
+@import "variables";
+
+.footer {
+  background-color: $cream;
+  margin: $marginLarge auto 0px;
+  padding: $marginMedium;
+}
+.footer .author-img {
+  max-width: 200px;
+  float: left;
+  margin: 0 $marginMedium $marginMedium 0;
+}
+
+.footer .author-name {
+  @include headingFontFamilyAlt;
+  margin: $marginSmall 0;
+  text-align: left;
+}
+
+.footer .author-bio {
+  line-height: 1.2;
+  @include bodyFont(400);
+}

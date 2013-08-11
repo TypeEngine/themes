@@ -1,0 +1,10 @@
+
+.endnote {
+  text-align: center;
+  margin: $marginMedium auto;
+  padding: $marginMedium auto;
+  &:before {
+    content: "♦♦♦";
+    color: $cream;
+  }
+}

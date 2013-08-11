@@ -77,30 +77,6 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'Jura';
-  src: url("../font/Jura-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Jura';
-  src: url("../font/Jura-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Jura';
-  src: url("../font/Jura-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Jura';
-  src: url("../font/Jura-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
   font-family: 'Gentium';
   src: url("../font/GenBasR.ttf") format("truetype");
   font-weight: normal;
@@ -244,30 +220,6 @@ a:active {
 .article-body img {
   text-align: center;
   margin: 24px auto; }
-
-.slidesjs-previous, .slidesjs-next {
-  display: none; }
-
-.slidesjs-pagination {
-  list-style: none;
-  margin: 12px auto;
-  padding: 0; }
-  .slidesjs-pagination li {
-    display: inline-block;
-    margin: 8px; }
-    .slidesjs-pagination li a {
-      display: inline-block;
-      font-family: OpenSansExtraBold;
-      text-decoration: none;
-      border-radius: 999px;
-      text-align: center;
-      vertical-align: middle;
-      min-width: 44px;
-      line-height: 44px;
-      background-color: #268fb5;
-      color: white; }
-      .slidesjs-pagination li a:active, .slidesjs-pagination li a.active {
-        background-color: shade(#268fb5, 20%); }
 
 .navbar {
   background-color: #ebe3d6;
@@ -618,9 +570,6 @@ a.ss-icon.ss-appdotnet {
   text-align: center;
   padding: 12px; }
 
-/*
-	MEDIA QUERIES
-*/
 @media only screen and (min-device-width: 1px) and (max-device-width: 479px) {
   .full-bleed, .asset-container {
     margin: 24px -12px; }
@@ -664,8 +613,6 @@ a.ss-icon.ss-appdotnet {
 
   .footer .author-name {
     text-align: center; } }
-@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
-  /* iPad Portrait */ }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   /* Don't forget your Retina CSS! */
   body {

@@ -1,0 +1,57 @@
+@import "variables";
+
+@media only screen and (min-device-width : 1px) and (max-device-width : 479px) {
+
+  .full-bleed, .asset-container {
+    margin: 24px (-$marginSmall);
+  }
+  .container {
+    margin:0 $marginSmall;
+  }
+  .footer {
+    margin: $marginMedium auto 0px;
+    padding: $marginMedium $marginSmall;
+    text-align: center;
+  }
+  .author-img {
+    float: none;
+    margin:0 auto;
+  }
+
+  // Header
+
+  .article-type {
+    font-size: 18px;
+  }
+  .article-title {
+    font-size: 32px;
+  }
+  .article-subtitle {
+    font-size: 24px;
+  }
+  .author-name {
+    margin: $marginMedium 0;
+    font-size: 18px;
+    span {
+      padding: 0 8px;
+      top: -11px;
+      margin: $marginSmall;
+    }
+  }  
+    // Footer
+
+    .footer .author-img {
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      margin: 0 auto;
+      float: none;
+      display: block;
+
+    }
+    .footer .author-name {
+      text-align: center;
+    }
+
+
+  }  

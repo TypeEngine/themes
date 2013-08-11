@@ -1,0 +1,43 @@
+@media only screen and (min-device-width: 1px) and (max-device-width: 479px) {
+  .full-bleed, .asset-container {
+    margin: 24px -12px; }
+
+  .container {
+    margin: 0 12px; }
+
+  .footer {
+    margin: 48px auto 0px;
+    padding: 48px 12px;
+    text-align: center; }
+
+  .author-img {
+    float: none;
+    margin: 0 auto; }
+
+  .article-type {
+    font-size: 18px; }
+
+  .article-title {
+    font-size: 32px; }
+
+  .article-subtitle {
+    font-size: 24px; }
+
+  .author-name {
+    margin: 48px 0;
+    font-size: 18px; }
+    .author-name span {
+      padding: 0 8px;
+      top: -11px;
+      margin: 12px; }
+
+  .footer .author-img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    display: block; }
+
+  .footer .author-name {
+    text-align: center; } }

@@ -1,0 +1,16 @@
+@import "variables";
+
+.footnote {
+  color: $white;
+  background-color: $linkColor;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  display: inline-block;
+  border-radius: 999px;
+  min-width: 20px;
+  text-align: center;
+  text-decoration: none;
+  @include headingFont;
+  margin: 0 2px;
+}

@@ -6,7 +6,7 @@ These themes are available to use for TypeEngine magazines. They are available b
 
 TypeEngine Themes are composed of one or more article templates, and an app-styling.json file.
 
-#### Article Template Structure
+### Article Template Structure
 An article template is a ZIP file that contains an index.html file in the root folder. All other template assets (CSS, font files, images, and any other template assets) need to be contained in one or more sub-folders. Use relative paths in your index.html file to link to your assets.
 
 ### Uploading Article Templates to the TypeEngine Web Console
