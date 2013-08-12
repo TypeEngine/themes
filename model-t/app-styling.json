@@ -9,8 +9,14 @@
     "issueSelectorDisplay": {
         "publicationDates": false,
         "teasers": true,
-        "covers": true
+        "covers": true,
+        "topBorder": false,
+        "bottomBorder": false        
     },
+    "articleSelectorDisplay": {
+        "topBorder": false,
+        "bottomBorder": false
+    },    
     "format": {
         "fonts": {
             "customFonts": ["http://www.typeengine.net/fonts/Oxygen-webfont.ttf", "http://www.typeengine.net/fonts/Oxygen-Light.ttf", "http://www.typeengine.net/fonts/Tall_Film.ttf"],                     
