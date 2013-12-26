@@ -80,27 +80,27 @@
                 "name": "Avenir-Light",
                 "size": 22
             },
-            "subscribePanelButtonClose": { /* font to use on the "close" button shown at the bottom of the subscribe panel; defaults to the value set for "buttonSubscribe" */
+            "subscribePanelButtonClose": { 
                 "name": "Avenir-Light",
                 "size": 22
             }, 
-            "subscribeFieldsetTitle": { /* font used for the title of the subscribe fieldset on the subscribe panel (says "Subscribe with iTunes"); defaults to the value set for "issueHeaderTitle" */
+            "subscribeFieldsetTitle": { 
                 "name": "Avenir-Light",
                 "size": 22
             }, 
-            "logInFieldsetTitle": { /* font used for the title of the log in fieldset on the subscribe panel (says "Already Subscribed on Web"); defaults to the value set for "issueHeaderTitle" */
+            "logInFieldsetTitle": {
                 "name": "Avenir-Light",
                 "size": 22
             }, 
-            "usernameField": { /* font used in the username text field on the subscribe panel; defaults to a 20 point system font */
+            "usernameField": { 
                 "name": "Avenir-Light",
                 "size": 22
             }, 
-            "passwordField": { /* font used in the password text field on the subscribe panel; defaults to the value set for "usernameField" */
+            "passwordField": { 
                 "name": "Avenir-Light",
                 "size": 22
             }, 
-            "subscribePanelButtonLogIn": { /* font used on the log in button on the subscribe panel; defaults to the value set for "buttonDownload" */
+            "subscribePanelButtonLogIn": { 
                 "name": "Avenir-Light",
                 "size": 22
             } 
@@ -282,67 +282,65 @@
             "settingsFeedbackBackground": [
                 30, 30, 30, 1.0
             ],
-            "subscribePanelBackground": [ /* background color for the subscribe panel; defaults to the value set for "issueSelectorBackground" */
+            "subscribePanelBackground": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribePanelButtonCloseBackground": [ /* background color for the subscribe panel close button; defaults to the value set for "buttonRestoreBackground" */
+            "subscribePanelButtonCloseBackground": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribePanelButtonCloseSelected": [ /* selected color for the subscribe panel close button; defaults to the value set for "buttonRestoreSelected" */
+            "subscribePanelButtonCloseSelected": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribePanelButtonCloseBorder": [ /* border color for the subscribe panel close button; defaults to the value set for "buttonRestoreBorder" */
+            "subscribePanelButtonCloseBorder": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribePanelButtonCloseText": [ /* text color for the subscribe panel close button; defaults to the value set for "buttonRestoreText" */
+            "subscribePanelButtonCloseText": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribeFieldsetBackground": [ /* background color for the subscribe group of fields; defaults to the value set for "subscribePanelBackground" */
+            "subscribeFieldsetBackground": [ 
+            ], 
+            "subscribeFieldsetBorder": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribeFieldsetBorder": [ /* border color for the subscribe group of fields; defaults to the value set for "subscribeFieldsetBackground" */
+            "subscribeFieldsetTitle": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribeFieldsetTitle": [ /* text color for the title in the subscribe group of fields; defaults to the value set for "issueTitle" */
+            "logInFieldsetBackground": [ 
                 30, 30, 30, 1.0
             ], 
-            "logInFieldsetBackground": [ /* background color for the log in group of fields; defaults to the value set for "subscribePanelBackground" */
+            "logInFieldsetBorder": [ 
                 30, 30, 30, 1.0
             ], 
-            "logInFieldsetBorder": [ /* border color for the log in group of fields; defaults to the value set for "logInFieldsetBackground" */
+            "logInFieldsetTitle": [ 
                 30, 30, 30, 1.0
             ], 
-            "logInFieldsetTitle": [ /* text color for the title in the log in group of fields; defaults to the value set for "issueTitle" */
+            "usernameFieldBackground": [ 
                 30, 30, 30, 1.0
             ], 
-            "usernameFieldBackground": [ /* background color of the username field; defaults to white ([1, 1, 1, 1]) */
+            "usernameFieldText": [ 
                 30, 30, 30, 1.0
             ], 
-            "usernameFieldText": [ /* text color of the username field; defaults to black ([0, 0, 0, 1]) */
+            "usernameFieldBorder": [ 
                 30, 30, 30, 1.0
             ], 
-            "usernameFieldBorder": [ /* border color of the username field; defaults to black ([0, 0, 0, 1]) */
+            "passwordFieldBackground": [ 
+            ], 
+            "passwordFieldText": [ 
                 30, 30, 30, 1.0
             ], 
-            "passwordFieldBackground": [ /* background color of the password field; defaults to the value set for "usernameFieldBackground" */
+            "passwordFieldBorder": [ 
                 30, 30, 30, 1.0
             ], 
-            "passwordFieldText": [ /* text color of the password field; defaults to the value set for "usernameFieldText" */
+            "subscribePanelButtonLogInBackground": [ 
                 30, 30, 30, 1.0
             ], 
-            "passwordFieldBorder": [ /* border color of the password field; defaults to the value set for "usernameFieldBorder" */
+            "subscribePanelButtonLogInSelected": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribePanelButtonLogInBackground": [ /* background color of the log in button on the subscribe panel; defaults to the value set for "buttonDownloadBackground" */
+            "subscribePanelButtonLogInBorder": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribePanelButtonLogInSelected": [ /* selected color of the log in button on the subscribe panel; defaults to the value set for "buttonDownloadSelected" */
-                30, 30, 30, 1.0
-            ], 
-            "subscribePanelButtonLogInBorder": [ /* border color of the log in button on the subscribe panel; defaults to the value set for "buttonDownloadBorder" */
-                30, 30, 30, 1.0
-            ], 
-            "subscribePanelButtonLogInText": [ /* text color of the log in button on the subscribe panel; defaults to the value set for "buttonDownloadText" */
+            "subscribePanelButtonLogInText": [ 
                 30, 30, 30, 1.0
             ]
         },
@@ -363,22 +361,22 @@
             "settingsButtonBorderWidth": 0,
             "issueCellBorder": 1,
             "articleCellBorder": 1,
-            "subscribePanelFieldsetSpacing": 12, /* spacing between the subscribe and log in groups of fields, may be horizontal or vertical spacing depending on how the panel is presented; defaults to 12 */
-            "subscribePanelButtonCloseBorderSize": 0, /* size of the border on the subscribe panel close button; defaults to the value set for "buttonRestoreBorderSize" */
-            "subscribePanelButtonCloseBorderRadius": 0, /* corner radius on the subscribe panel close button; defaults to the value set for "buttonRestoreBorderRadius" */
-            "subscribeFieldsetBorderSize": 0, /* size of the border on the subscribe group of fields; defaults to 0 */
-            "subscribeFieldsetBorderRadius": 0, /* corner radius on the subscribe group of fields; defaults to 0 */
-            "logInFieldsetBorderSize": 0, /* size of the border on the log in group of fields; defaults to 0 */
-            "logInFieldsetBorderRadius": 0, /* corner radius on the log in group of fields; defaults to 0 */
-            "usernameFieldHeight": 32, /* height of the username field; defaults to 32 */
-            "usernameFieldMinimumFontSize": 16, /* minimum font size to use in the username field when the font scales down to fit more text; defaults to 16 */
-            "usernameFieldBorderSize": 0, /* size of the border on the username field; defaults to 0 */
-            "usernameFieldBorderRadius": 0, /* corner radius on the username field; defaults to 0 */
-            "passwordFieldHeight": 0, /* height of the password field; defaults to the value set for "usernameFieldHeight" */
-            "passwordFieldBorderSize": 12, /* size of the border on the password field; defaults to the value set for "usernameFieldBorderSize" */
-            "passwordFieldBorderRadius": 12, /* corner radius on the password field; defaults to the value set for "usernameFieldBorderRadius" */
-            "subscribePanelButtonLogInBorderSize": 0, /* size of the border on the log in button; defaults to the value set for "buttonDownloadBorderSize" */
-            "subscribePanelButtonLogInBorderRadius": 0 /* corner radius on the log in button; defaults to the value set for "buttonDownloadBorderRadius" */
+            "subscribePanelFieldsetSpacing": 12, 
+            "subscribePanelButtonCloseBorderSize": 0, 
+            "subscribePanelButtonCloseBorderRadius": 0, 
+            "subscribeFieldsetBorderSize": 0, 
+            "subscribeFieldsetBorderRadius": 0, 
+            "logInFieldsetBorderSize": 0, 
+            "logInFieldsetBorderRadius": 0, 
+            "usernameFieldHeight": 32, 
+            "usernameFieldMinimumFontSize": 16, 
+            "usernameFieldBorderSize": 0, 
+            "usernameFieldBorderRadius": 0, 
+            "passwordFieldHeight": 0, 
+            "passwordFieldBorderSize": 12, 
+            "passwordFieldBorderRadius": 12, 
+            "subscribePanelButtonLogInBorderSize": 0, 
+            "subscribePanelButtonLogInBorderRadius": 0 
         },
         "padding": {
             "scrollNavigationTextPadding": [
@@ -447,25 +445,24 @@
             "buttonDownload": [
                 0, 16, 0, 16
             ],
-            "subscribePanelPadding": [ /* amount of padding to put around inside of the edges of the subscribe panel; defaults to [8, 12, 8, 12] */
-                8, 12, 8, 12
+            "subscribePanelPadding": [ 
             ], 
-            "subscribePanelFieldsetPadding": [ /* amount of padding to put around the inside edges of the each group of fields of the subscribe panel; defaults to [8, 8, 8, 8] */
+            "subscribePanelFieldsetPadding": [ 
                 8, 8, 8, 8
             ], 
-            "subscribePanelFieldsetTitlePadding": [ /* amount of padding to put around the title of each group of fields of the subscribe panel; defaults to the value set for "articleHeaderTitlePadding" */
+            "subscribePanelFieldsetTitlePadding": [ 
                 0, 16, 0, 16
             ], 
-            "subscribePanelCloseButtonPadding": [ /* amount of padding to put around the close button of the subscribe panel; defaults to [0, 0, 8, 0] */
+            "subscribePanelCloseButtonPadding": [ 
                 0, 16, 0, 16
             ], 
-            "usernameFieldPadding": [ /* amount of padding to put around the username field; defaults to [0, 0, 8, 0] */
+            "usernameFieldPadding": [
                 0, 16, 0, 16
             ], 
-            "passwordFieldPadding": [ /* amount of padding to put around the password field; defaults to the value set for "usernameFieldPadding" */
+            "passwordFieldPadding": [ 
                 0, 16, 0, 16
             ], 
-            "buttonLogInPadding": [ /* amount of padding to put around the log in button; defaults to the value set for "buttonDownloadPadding" */
+            "buttonLogInPadding": [ 
                 0, 16, 0, 16
             ] 
         },
@@ -481,14 +478,14 @@
             "articleCellAuthorAlignment": 0,
             "articleCellTeaserAlignment": 0,
             "buttonBackTextAlignment": 0,
-            "subscribeFieldsetTitleAlignment": 1, /* text alignment of the title for the subscribe set of fields; defaults to 1 (center) */
-            "logInFieldsetTitleAlignment": 1, /* text alignment of the title for the log in set of fields; defaults to 1 (center) */
-            "usernameFieldTextAlignment": 0, /* text alignment of the username field; defaults to 0 (left) */
-            "passwordFieldTextAlignment": 0 /* text alignment of the password field; defaults to the value set for "usernameFieldTextAlignment" */
+            "subscribeFieldsetTitleAlignment": 1,
+            "logInFieldsetTitleAlignment": 1,
+            "usernameFieldTextAlignment": 0, 
+            "passwordFieldTextAlignment": 0 
         },
-        "styleFlags": { /* This is new, used for specific style flags such as the text fields for logging in. Valid values for the text fields are: 0 (no border), 1 (line), 2 (bezel), 3 (rounded rect). */
-            "usernameBorder": 1, /* sets the border style of the username text field (note that this is a separate border than the one set by the field's border size, color, and corner radius); defaults to 1 (line) */ 
-            "passwordBorder": 1  /* sets the border style of the password text field (note that this is a separate border than the one set by the field's border size, color, and corner radius); defaults to the value set for "usernameBorder" */ 
+        "styleFlags": { 
+            "usernameBorder": 1, 
+            "passwordBorder": 1  
         }
     }
 }
