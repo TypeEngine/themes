@@ -446,6 +446,7 @@
                 0, 16, 0, 16
             ],
             "subscribePanelPadding": [ 
+                0, 16, 0, 16
             ], 
             "subscribePanelFieldsetPadding": [ 
                 8, 8, 8, 8
