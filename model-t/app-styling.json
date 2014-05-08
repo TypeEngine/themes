@@ -8,9 +8,9 @@
         "dateFormat": "MMM dd, yyyy"
     },
     "issueSelectorDisplay": {
-        "covers": false,
+        "covers": true,
         "publicationDates": false,
-        "teasers": false,
+        "teasers": true,
         "chevrons": true,
         "topBorder": false,
         "bottomBorder": false        
@@ -22,22 +22,22 @@
     },    
     "format": {
         "fonts": {
-            "customFonts": ["http://www.typeengine.net/fonts/Oxygen-webfont.ttf", "http://www.typeengine.net/fonts/Oxygen-Light.ttf", "http://www.typeengine.net/fonts/Tall_Film.ttf"],                     
+            "customFonts": ["http://www.typeengine.net/fonts/SourceSansPro-Bold.ttf", "http://www.typeengine.net/fonts/SourceSansPro-Regular.ttf"],                     
             "magazineTitle": {
-                "name": "HelveticaNeue",
-                "size": 22
+                "name": "Avenir-Heavy",
+                "size": 24
             },   
             "issueTitle": {
                 "name": "Avenir-Heavy",
-                "size": 20
+                "size": 24
             },
             "issueTeaser": {
                 "name": "Avenir-Light",
-                "size": 18
+                "size": 16
             }, 
             "issuePublicationDate": {
                 "name": "Avenir-Light",
-                "size": 18
+                "size": 16
             },
             "issueHeaderTitle": {
                 "name": "Avenir-Heavy",
@@ -45,51 +45,51 @@
             },
             "articleTitle": {
                 "name": "Avenir-Heavy",
-                "size": 20
+                "size": 24
             },
             "articleAuthor": {
                 "name": "Avenir-Light",
-                "size": 18
+                "size": 16
             },
             "articleTeaser": {
                 "name": "Avenir-Italic",
-                "size": 18
+                "size": 16
             },
             "button": {
                 "name": "Avenir-Medium",
-                "size": 20
+                "size": 16
             },
             "buttonSubscribe": {
                 "name": "Avenir-Heavy",
-                "size": 20
+                "size": 16
             },
             "buttonRestore": {
                 "name": "Avenir-Heavy",
-                "size": 20
+                "size": 16
             },
             "buttonDownload": {
-                "name": "Avenir-Heavy",
-                "size": 20
+                "name": "Avenir-Medium",
+                "size": 16
             },
             "buttonBack": {
-                "name": "Avenir-Heavy",
-                "size": 20
+                "name": "Avenir-Medium",
+                "size": 16
             },
             "settingsTitle": {
                 "name": "Avenir-Light",
-                "size": 18
+                "size": 22
             },
             "settingsButtonTitle": {
                 "name": "Avenir-Light",
-                "size": 20
+                "size": 22
             },
             "settingsPrivacyPolicyContent": {
                 "name": "HelveticaNeue",
                 "size": 16
             },
             "buttonBuy": {
-                "name": "Avenir-Heavy",
-                "size": 12
+                "name": "Avenir-Medium",
+                "size": 16
             },
             "scrollNavigation": {
                 "name": "HelveticaNeue",
@@ -161,31 +161,31 @@
                 30, 30, 30, 1
             ],
             "issueCellBorder": [
-                255, 255, 255, 0.5
+                30, 30, 30, 0.5
             ],
             "issueCellBorderTop": [
-                255, 255, 255, 0.5
+                30, 30, 30, 0.5
             ],
             "issueCellBorderBottom": [
-                255, 255, 255, 0.5
+                30, 30, 30, 0.5
             ],
             "articleSelectorBackground": [
                 235, 227, 214, 1
             ],
             "articleCellBorder": [
-                255, 255, 255, 0.5
+                30, 30, 30, 0.5
             ],   
             "articleCellBorderTop": [
-                255, 255, 255, 0.5
+                30, 30, 30, 0.5
             ],        
             "articleCellBorderBottom": [
-                255, 255, 255, 0.5
+                30, 30, 30, 0.5
             ],        
             "articleCellBackground": [
-                255, 255, 255, 0.5
+                235, 227, 214, 0.5
             ],       
             "articleCellSelectedBackground": [
-                255, 255, 255, 0.5
+                30, 30, 30, 0.5
             ],     
             "articleSelectorHeaderBackground": [
                 227, 215, 197, 1
@@ -218,37 +218,37 @@
                 250, 250, 250, 1
             ],
             "settingsBackground": [
-                30, 30, 30, 1
+                235, 227, 214, 1
             ], 
             "settingsTitleText": [
                 30, 30, 30, 1
             ],   
             "settingsCellBackground": [
-                30, 30, 30, 1
+                235, 227, 214, 1
             ],
             "settingsButtonBackground": [
-                40, 40, 40, 1.0
+                227, 215, 197, 1.0
             ],
             "settingsButtonBorder": [
                 40, 40, 40, 1.0
             ],
             "settingsButtonSelectedBackground": [
-                60, 60, 60, 1
+                30, 30, 30, 1
             ],
             "settingsButtonTitle": [
-                250, 250, 250, 1
+                30, 30, 30, 1
             ],
             "settingsButtonTitleHighlighted": [
                 250, 250, 250, 1
             ],            
             "settingsPrivacyPolicyBackground": [
-                30, 30, 30, 1.0
+                235, 227, 214, 1.0
             ],
             "settingsPrivacyPolicyContent": [
-                250, 250, 250, 1
+                60, 60, 60, 1
             ],
             "settingsFeedbackBackground": [
-                30, 30, 30, 1.0
+                235, 227, 214, 1.0
             ],
             "buttonBackground": [
                 30, 30, 30, 0.9
@@ -260,13 +260,13 @@
                 255, 255, 255, 1
             ],
             "button": [
-                255, 255, 255, 1
+                30, 30, 30, 1
             ],
             "buttonSubscribeBackground": [
                 38, 181, 46, 1
             ],
             "buttonSubscribeSelected": [
-                60, 159, 65, 1  
+                38, 181, 46, 1  
             ],
             "buttonSubscribeBorder": [
                 30, 30, 30, 0
@@ -275,31 +275,31 @@
                 60, 60, 60, 1.0
             ],
             "buttonRestoreSelected": [
-                30, 30, 30, 1
+                60, 60, 60, 1
             ],
             "buttonRestoreBorder": [
                 50, 50, 50, 0
             ],            
             "buttonRestoreText": [
-                250, 250, 250, 1
+                30, 30, 30, 1
             ],
             "buttonDownloadBackground": [
-                38, 181, 46, 1
+                13, 170, 224, 1
             ],
             "buttonDownloadSelected": [
-                60, 159, 65, 1
+                50, 50, 50, 1
             ],
             "buttonDownloadBorder": [
                 30, 30, 30, 0
             ],
             "buttonDownloadText": [
-                250, 250, 250, 1
+                30, 30, 30, 1
             ],
             "buttonDownloadProgressBar": [
-                38, 181, 46, 1
+                13, 170, 224, 1
             ],
             "buttonDownloadProgressBackground": [
-                60, 159, 65, 1
+                50, 50, 50, 1
             ],
             "buttonBackBackground": [
                 30, 30, 30, 1
@@ -308,7 +308,7 @@
                 30, 30, 30, 0
             ],
             "buttonBackText": [
-                250, 250, 250, 1
+                220, 220, 220, 1
             ],
             "buttonBack": [
                 250, 250, 250, 1
@@ -320,13 +320,13 @@
                 38, 181, 46, 1
             ],
             "buttonBuyPurchaseBackground": [
-                51, 221, 0, 1
+                38, 181, 46, 1
             ],
             "buttonBuyPurchaseSelected": [
-                34, 147, 0, 1
+                38, 181, 46, 1
             ],
             "buttonBuyPurchasingBackground": [
-                192, 192, 192, 1
+                38, 181, 46, 1
             ],
             "buttonBuyBorder": [
                 50, 50, 50, 0
@@ -413,13 +413,13 @@
                 160, 160, 160, 1.0
             ], 
             "footnoteBackground": [ 
-                160, 160, 160, 1.0
+                250, 250, 250, 1.0
             ], 
             "footnoteText": [ 
-                160, 160, 160, 1.0
+                30, 30, 30, 1.0
             ], 
             "footnoteBorder": [ 
-                160, 160, 160, 1.0
+                30, 30, 30, 1.0
             ]
         },
         "dimensions": {            
@@ -455,16 +455,16 @@
             "issueCellBorderBottom": 1,
             "issueCellBorderSize": 1,
             "issueCellBorder": 1,
-            "issueCellTitleLineHeight": 1,
-            "issueCellTeaserLineHeight": 1,
-            "issueCellDateLineHeight": 1,
+            "issueCellTitleLineHeight": 15,
+            "issueCellTeaserLineHeight": 15,
+            "issueCellDateLineHeight": 15,
             "articleCellBorderTop": 1,
             "articleCellBorderBottom": 1,
             "articleCellBorderSize": 1,
             "articleCellBorder": 1,
-            "articleCellTitleLineHeight": 1,
-            "articleCellTeaserLineHeight": 1,
-            "articleCellAuthorLineHeight": 1,
+            "articleCellTitleLineHeight": 15,
+            "articleCellTeaserLineHeight": 15,
+            "articleCellAuthorLineHeight": 15,
             "buttonLogInBorderSize": 1,
             "buttonLogInBorderRadius": 1,
             "subscribePanelButtonSpacing": 1,
