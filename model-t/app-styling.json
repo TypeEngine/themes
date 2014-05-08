@@ -2,88 +2,99 @@
     "coverHeight": 125,
     "coverWidth": 85,
     "issueHeaderDisplay": {
+        "covers": true,
         "publicationDates": false,
         "teasers": true,
-        "covers": true
+        "dateFormat": "MMM dd, yyyy"
     },
     "issueSelectorDisplay": {
+        "covers": false,
         "publicationDates": false,
-        "teasers": true,
-        "covers": true,
+        "teasers": false,
+        "chevrons": true,
         "topBorder": false,
         "bottomBorder": false        
     },
     "articleSelectorDisplay": {
         "topBorder": false,
-        "bottomBorder": false
+        "bottomBorder": false,
+        "authors": true
     },    
     "format": {
         "fonts": {
             "customFonts": ["http://www.typeengine.net/fonts/Oxygen-webfont.ttf", "http://www.typeengine.net/fonts/Oxygen-Light.ttf", "http://www.typeengine.net/fonts/Tall_Film.ttf"],                     
-            "scrollNavigation": {
+            "magazineTitle": {
                 "name": "HelveticaNeue",
                 "size": 22
-            },  
+            },   
             "issueTitle": {
                 "name": "Avenir-Heavy",
-                "size": 24
+                "size": 20
             },
             "issueTeaser": {
                 "name": "Avenir-Light",
-                "size": 16
+                "size": 18
             }, 
             "issuePublicationDate": {
                 "name": "Avenir-Light",
-                "size": 16
+                "size": 18
+            },
+            "issueHeaderTitle": {
+                "name": "Avenir-Heavy",
+                "size": 20
             },
             "articleTitle": {
                 "name": "Avenir-Heavy",
-                "size": 24
+                "size": 20
             },
             "articleAuthor": {
                 "name": "Avenir-Light",
-                "size": 16
+                "size": 18
             },
             "articleTeaser": {
                 "name": "Avenir-Italic",
-                "size": 16
+                "size": 18
             },
             "button": {
                 "name": "Avenir-Medium",
-                "size": 16
+                "size": 20
             },
             "buttonSubscribe": {
                 "name": "Avenir-Heavy",
-                "size": 16
+                "size": 20
             },
             "buttonRestore": {
                 "name": "Avenir-Heavy",
-                "size": 16
+                "size": 20
             },
             "buttonDownload": {
                 "name": "Avenir-Heavy",
+                "size": 20
+            },
+            "buttonBack": {
+                "name": "Avenir-Heavy",
+                "size": 20
+            },
+            "settingsTitle": {
+                "name": "Avenir-Light",
+                "size": 18
+            },
+            "settingsButtonTitle": {
+                "name": "Avenir-Light",
+                "size": 20
+            },
+            "settingsPrivacyPolicyContent": {
+                "name": "HelveticaNeue",
                 "size": 16
             },
             "buttonBuy": {
                 "name": "Avenir-Heavy",
-                "size": 16
+                "size": 12
             },
-            "buttonBack": {
-                "name": "Avenir-Heavy",
-                "size": 16
-            },
-            "settingsTitle": {
-                "name": "Avenir-Light",
+            "scrollNavigation": {
+                "name": "HelveticaNeue",
                 "size": 22
             },
-            "settingsButtonTitle": {
-                "name": "Avenir-Light",
-                "size": 22
-            },
-            "subscribePanelButtonClose": { 
-                "name": "Avenir-Light",
-                "size": 22
-            }, 
             "subscribeFieldsetTitle": { 
                 "name": "Avenir-Light",
                 "size": 22
@@ -94,27 +105,35 @@
             }, 
             "usernameField": { 
                 "name": "Avenir-Light",
-                "size": 22
+                "size": 20
             }, 
             "passwordField": { 
                 "name": "Avenir-Light",
-                "size": 22
+                "size": 20
             }, 
-            "subscribePanelButtonLogIn": { 
+            "buttonLogIn": { 
                 "name": "Avenir-Light",
                 "size": 22
+            }, 
+            "footnote": { 
+                "name": "Avenir-Light",
+                "size": 17
             } 
         },
-        
-        },
         "colors": {
-            "scrollNavigationText": [
-                1, 1, 1, 1
-            ],
-             "scrollNavigationBackground": [
-                1, 1, 1, 1
+            "magazineTitle": [
+                30, 30, 30, 1
             ],
             "issueSelectorBackground": [
+                235, 227, 214, 1
+            ],
+            "issueTitleBackground": [
+                235, 227, 214, 1
+            ],
+            "issueDateBackground": [
+                235, 227, 214, 1
+            ],
+            "issueTeaserBackground": [
                 235, 227, 214, 1
             ],
             "issueTitle": [
@@ -141,29 +160,44 @@
             "issueSelectedBackground": [
                 30, 30, 30, 1
             ],
-            "issueCellBorderColor": [
+            "issueCellBorder": [
                 255, 255, 255, 0.5
             ],
-            "articleCellBorderColor": [
+            "issueCellBorderTop": [
                 255, 255, 255, 0.5
-            ],            
+            ],
+            "issueCellBorderBottom": [
+                255, 255, 255, 0.5
+            ],
+            "articleSelectorBackground": [
+                235, 227, 214, 1
+            ],
+            "articleCellBorder": [
+                255, 255, 255, 0.5
+            ],   
+            "articleCellBorderTop": [
+                255, 255, 255, 0.5
+            ],        
+            "articleCellBorderBottom": [
+                255, 255, 255, 0.5
+            ],        
+            "articleCellBackground": [
+                255, 255, 255, 0.5
+            ],       
+            "articleCellSelectedBackground": [
+                255, 255, 255, 0.5
+            ],     
             "articleSelectorHeaderBackground": [
                 227, 215, 197, 1
             ],
             "articleSelectorHeaderTitle": [
                 30, 30, 30, 1
             ],
-            "articleSelectorHeaderPublicationDate": [
-                60, 60, 60, 1
-            ],
             "articleSelectorHeaderTeaser": [
                 60, 60, 60, 1
             ],
-            "articleCellBackground": [
-                235, 227, 214, 1
-            ],
-            "articleCellSelectedBackground": [
-                30, 30, 30, 1
+            "articleSelectorHeaderPublicationDate": [
+                60, 60, 60, 1
             ],
             "articleTitle": [
                 30, 30, 30, 1
@@ -183,6 +217,39 @@
             "articleTeaserSelected": [
                 250, 250, 250, 1
             ],
+            "settingsBackground": [
+                30, 30, 30, 1
+            ], 
+            "settingsTitleText": [
+                30, 30, 30, 1
+            ],   
+            "settingsCellBackground": [
+                30, 30, 30, 1
+            ],
+            "settingsButtonBackground": [
+                40, 40, 40, 1.0
+            ],
+            "settingsButtonBorder": [
+                40, 40, 40, 1.0
+            ],
+            "settingsButtonSelectedBackground": [
+                60, 60, 60, 1
+            ],
+            "settingsButtonTitle": [
+                250, 250, 250, 1
+            ],
+            "settingsButtonTitleHighlighted": [
+                250, 250, 250, 1
+            ],            
+            "settingsPrivacyPolicyBackground": [
+                30, 30, 30, 1.0
+            ],
+            "settingsPrivacyPolicyContent": [
+                250, 250, 250, 1
+            ],
+            "settingsFeedbackBackground": [
+                30, 30, 30, 1.0
+            ],
             "buttonBackground": [
                 30, 30, 30, 0.9
             ],
@@ -190,6 +257,9 @@
                 30, 30, 30, 1
             ],
             "buttonText": [
+                255, 255, 255, 1
+            ],
+            "button": [
                 255, 255, 255, 1
             ],
             "buttonSubscribeBackground": [
@@ -200,9 +270,6 @@
             ],
             "buttonSubscribeBorder": [
                 30, 30, 30, 0
-            ],
-            "buttonSubscribeText": [
-                250, 250, 250, 1
             ],
             "buttonRestoreBackground": [
                 60, 60, 60, 1.0
@@ -234,15 +301,6 @@
             "buttonDownloadProgressBackground": [
                 60, 159, 65, 1
             ],
-            "buttonBuyBackground": [
-                38, 181, 46, 1
-            ],
-            "buttonBuyBorder": [
-                50, 50, 50, 0
-            ],
-            "buttonBuyText": [
-                250, 250, 250, 1
-            ],
             "buttonBackBackground": [
                 30, 30, 30, 1
             ],
@@ -252,52 +310,41 @@
             "buttonBackText": [
                 250, 250, 250, 1
             ],
-            "settingsTitleText": [
+            "buttonBack": [
                 250, 250, 250, 1
-            ],       
-            "settingsBackground": [
-                30, 30, 30, 1
+            ],
+            "buttonBuyPriceBackground": [
+                38, 181, 46, 1
+            ],
+            "buttonBuyPriceSelected": [
+                38, 181, 46, 1
+            ],
+            "buttonBuyPurchaseBackground": [
+                51, 221, 0, 1
+            ],
+            "buttonBuyPurchaseSelected": [
+                34, 147, 0, 1
+            ],
+            "buttonBuyPurchasingBackground": [
+                192, 192, 192, 1
+            ],
+            "buttonBuyBorder": [
+                50, 50, 50, 0
+            ],
+            "buttonBuyText": [
+                250, 250, 250, 1
+            ],
+            "scrollNavigationBackground": [
+                0, 0, 0, 1
             ],   
-            "settingsCellBackground": [
-                30, 30, 30, 1
-            ],
-            "settingsButtonBackground": [
-                40, 40, 40, 1.0
-            ],
-            "settingsButtonSelectedBackground": [
-                60, 60, 60, 1
-            ],
-            "settingsButtonTitle": [
+            "scrollNavigationText": [
                 250, 250, 250, 1
-            ],
-            "settingsButtonTitleHighlighted": [
-                250, 250, 250, 1
-            ],            
-            "settingsPrivacyPolicyBackground": [
-                30, 30, 30, 1.0
-            ],
-            "settingsPrivacyPolicyContent": [
-                250, 250, 250, 1
-            ],
-            "settingsFeedbackBackground": [
-                30, 30, 30, 1.0
-            ],
+            ],   
             "subscribePanelBackground": [ 
                 30, 30, 30, 1.0
             ], 
-            "subscribePanelButtonCloseBackground": [ 
-                30, 30, 30, 1.0
-            ], 
-            "subscribePanelButtonCloseSelected": [ 
-                30, 30, 30, 1.0
-            ], 
-            "subscribePanelButtonCloseBorder": [ 
-                30, 30, 30, 1.0
-            ], 
-            "subscribePanelButtonCloseText": [ 
-                30, 30, 30, 1.0
-            ], 
             "subscribeFieldsetBackground": [ 
+                30, 30, 30, 1.0
             ], 
             "subscribeFieldsetBorder": [ 
                 30, 30, 30, 1.0
@@ -324,24 +371,55 @@
                 30, 30, 30, 1.0
             ], 
             "passwordFieldBackground": [ 
+                30, 30, 30, 1.0
             ], 
             "passwordFieldText": [ 
                 30, 30, 30, 1.0
             ], 
             "passwordFieldBorder": [ 
                 30, 30, 30, 1.0
+            ],
+            "buttonLogInBackground": [ 
+                250, 250, 250, 1.0
             ], 
-            "subscribePanelButtonLogInBackground": [ 
-                30, 30, 30, 1.0
+            "buttonLogInSelected": [ 
+                125, 125, 125, 1.0
             ], 
-            "subscribePanelButtonLogInSelected": [ 
-                30, 30, 30, 1.0
+            "buttonLogInBorder": [ 
+                250, 250, 250, 1.0
             ], 
-            "subscribePanelButtonLogInBorder": [ 
-                30, 30, 30, 1.0
+            "buttonLogInText": [ 
+                0, 0, 0, 1.0
             ], 
-            "subscribePanelButtonLogInText": [ 
-                30, 30, 30, 1.0
+            "toolbarBackground": [ 
+                160, 160, 160, 1.0
+            ], 
+            "buttonIconColor": [ 
+                160, 160, 160, 1.0
+            ], 
+            "scrollNavigationIndicator": [ 
+                160, 160, 160, 1.0
+            ], 
+            "usernameFieldPlaceholderText": [ 
+                160, 160, 160, 1.0
+            ], 
+            "passwordFieldPlaceholderText": [ 
+                160, 160, 160, 1.0
+            ], 
+            "panelCloseButton": [ 
+                160, 160, 160, 1.0
+            ],  
+            "panelCloseButtonHighlight": [ 
+                160, 160, 160, 1.0
+            ], 
+            "footnoteBackground": [ 
+                160, 160, 160, 1.0
+            ], 
+            "footnoteText": [ 
+                160, 160, 160, 1.0
+            ], 
+            "footnoteBorder": [ 
+                160, 160, 160, 1.0
             ]
         },
         "dimensions": {            
@@ -349,43 +427,54 @@
             "buttonBorderRadius": 22,
             "buttonSubscribeBorderSize": 1,
             "buttonSubscribeBorderRadius": 5,
-            "buttonDownloadBorderSize": 1,
-            "buttonDownloadBorderRadius": 5,
-            "buttonBuyBorderSize": 1,
-            "buttonBuyBorderRadius": 5,
             "buttonRestoreBorderSize": 1,
             "buttonRestoreBorderRadius": 5,
+            "buttonDownloadBorderSize": 1,
+            "buttonDownloadBorderRadius": 5,
             "buttonBackBorderSize": 0,
             "buttonBackBorderRadius": 0,
             "settingsButtonRadius": 0,
             "settingsButtonBorderWidth": 0,
-            "issueCellBorder": 1,
-            "articleCellBorder": 1,
+            "buttonBuyBorderSize": 1,
+            "buttonBuyBorderRadius": 5,
+            "buttonBuyMinimumWidth": 55,
+            "buttonBuyMinimumHeight": 25,
             "subscribePanelFieldsetSpacing": 12, 
-            "subscribePanelButtonCloseBorderSize": 0, 
-            "subscribePanelButtonCloseBorderRadius": 0, 
             "subscribeFieldsetBorderSize": 0, 
             "subscribeFieldsetBorderRadius": 0, 
             "logInFieldsetBorderSize": 0, 
             "logInFieldsetBorderRadius": 0, 
-            "usernameFieldHeight": 32, 
+            "usernameFieldHeight": 48, 
             "usernameFieldMinimumFontSize": 16, 
             "usernameFieldBorderSize": 0, 
             "usernameFieldBorderRadius": 0, 
             "passwordFieldHeight": 0, 
             "passwordFieldBorderSize": 12, 
             "passwordFieldBorderRadius": 12, 
-            "subscribePanelButtonLogInBorderSize": 0, 
-            "subscribePanelButtonLogInBorderRadius": 0 
+            "issueCellBorderTop": 1,
+            "issueCellBorderBottom": 1,
+            "issueCellBorderSize": 1,
+            "issueCellBorder": 1,
+            "issueCellTitleLineHeight": 1,
+            "issueCellTeaserLineHeight": 1,
+            "issueCellDateLineHeight": 1,
+            "articleCellBorderTop": 1,
+            "articleCellBorderBottom": 1,
+            "articleCellBorderSize": 1,
+            "articleCellBorder": 1,
+            "articleCellTitleLineHeight": 1,
+            "articleCellTeaserLineHeight": 1,
+            "articleCellAuthorLineHeight": 1,
+            "buttonLogInBorderSize": 1,
+            "buttonLogInBorderRadius": 1,
+            "subscribePanelButtonSpacing": 1,
+            "panelCornerRadius": 1
         },
         "padding": {
-            "scrollNavigationTextPadding": [
-                0, 0, 0, 0
-            ],
-            "issueCoverArtPadding": [
-                8, 8, 8, 8
-            ],
             "issueCellPadding": [
+                16, 8, 16, 8
+            ],
+            "issueCellBorderPadding": [
                 16, 8, 16, 8
             ],
             "issueCellCoverPadding": [
@@ -399,9 +488,6 @@
             ],
             "issueCellTeaserPadding": [
                 0, 0, 0, 0
-            ],
-            "articleHeaderCoverArtPadding": [
-                10, 10, 10, 10
             ],
             "articleHeaderPadding": [
                 16, 8, 16, 8
@@ -421,6 +507,9 @@
             "articleCellPadding": [
                 16, 8, 16, 8
             ],
+            "articleCellBorderPadding": [
+                16, 8, 16, 8
+            ],
             "articleCellTitlePadding": [
                 0, 0, 0, 0
             ],
@@ -430,31 +519,31 @@
             "articleCellTeaserPadding": [
                 0, 0, 0, 0
             ],
-            "issueCellBorderPadding": [
-                0, 0, 0, 0           
-            ],
-            "articleCellBorderPadding": [
-                0, 0, 0, 0                
-            ],
-            "buttonSubscribe": [
+            "buttonSubscribePadding": [
                 0, 16, 0, 16
             ],
-            "buttonRestore": [
+            "buttonRestorePadding": [
                 0, 16, 0, 16
             ],
-            "buttonDownload": [
+            "buttonDownloadPadding": [
                 0, 16, 0, 16
+            ],
+            "buttonBuyPadding": [
+                10, 10, 10, 10
+            ],
+            "scrollNavigationTextPadding": [
+                0, 0, 0, 0
+            ],
+            "buttonBuyLabelPadding": [
+                0, 12, 0, 12
             ],
             "subscribePanelPadding": [ 
-                0, 16, 0, 16
+                0, 8, 0, 8
             ], 
             "subscribePanelFieldsetPadding": [ 
-                8, 8, 8, 8
+                0, 16, 24, 16
             ], 
             "subscribePanelFieldsetTitlePadding": [ 
-                0, 16, 0, 16
-            ], 
-            "subscribePanelCloseButtonPadding": [ 
                 0, 16, 0, 16
             ], 
             "usernameFieldPadding": [
@@ -465,10 +554,12 @@
             ], 
             "buttonLogInPadding": [ 
                 0, 16, 0, 16
-            ] 
+            ],
+            "footnotePadding": [ 
+                0, 16, 0, 16
+            ]
         },
         "positions": {
-           "scrollNavigationTextAlignment": 1,
             "issueCellTitleAlignment": 0,
             "issueCellPublishedDateAlignment": 0,
             "issueCellTeaserAlignment": 0,
@@ -479,14 +570,16 @@
             "articleCellAuthorAlignment": 0,
             "articleCellTeaserAlignment": 0,
             "buttonBackTextAlignment": 0,
+            "settingsTitleAlignment": 0,
+            "scrollNavigationTextAlignment": 1,
             "subscribeFieldsetTitleAlignment": 1,
             "logInFieldsetTitleAlignment": 1,
             "usernameFieldTextAlignment": 0, 
             "passwordFieldTextAlignment": 0 
         },
-        "styleFlags": { 
-            "usernameBorder": 1, 
-            "passwordBorder": 1  
+        "labels": { 
+            "buyButtonPurchase": "Buy Issue", 
+            "buyButtonPurchasing": "Purchasing..."  
         }
     }
 }
